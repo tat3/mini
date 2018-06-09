@@ -1,0 +1,6 @@
+*.cmi
+*.cmo
+*.mli
+parser.ml
+lexer.ml
+miniocaml

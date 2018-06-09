@@ -68,7 +68,7 @@ let _ = eval3 (If (Eq(IntLit 2, IntLit 11),
                    Times(IntLit 1, Plus(IntLit 2,IntLit 3))))
 let _ = eval3 (Eq (IntLit 1, IntLit 1))
 let _ = eval3 (Eq (IntLit 1, IntLit 2))
-let () = print_value (eval3 (Eq (BoolLit true, BoolLit true)) [])
+(* let () = print_value (eval3 (Eq (BoolLit true, BoolLit true)) [])
 let () = print_value (eval3 (Eq (BoolLit true, BoolLit false)) [])
-let () = print_value (eval3 (Let ("x", IntLit 3, Var "x")) [])
+let () = print_value (eval3 (Let ("x", IntLit 3, Var "x")) []) *)
 
