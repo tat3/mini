@@ -1,6 +1,6 @@
-#A interpreter of a small OCaml
+# A interpreter of a small OCaml
 
-##Usage
+## Usage
 
 ```bash
 git clone https://github.com/tat3/mini
