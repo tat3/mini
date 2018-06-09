@@ -38,7 +38,7 @@ let rec eval e env =
     | Var (x) -> lookup x env
     | IntLit (n) -> IntVal (n)
     | Plus (e1, e2) -> binop (+) e1 e2 env
-    | Times (e1, e2) -> binop (+) e1 e2 env
+    | Times (e1, e2) -> binop ( * ) e1 e2 env
     | Eq (e1, e2) ->
         begin
             match (eval e1 env, eval e2 env) with
