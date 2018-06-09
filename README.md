@@ -1,4 +1,5 @@
-# A interpreter of a small OCaml
+# mini
+A interpreter of a small OCaml
 
 ## Usage
 
